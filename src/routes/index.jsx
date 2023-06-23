@@ -5,6 +5,8 @@ const routeNames = {
   'profile.edit': '/profile',
   'profile.change-password': '/profile/change-password',
   'vehicles.index': '/vehicles',
+  'vehicles.create': '/vehicles/create',
+  'vehicles.edit': '/vehicles/:id/edit',
   'parkings.active': '/parkings/active',
 }
  
