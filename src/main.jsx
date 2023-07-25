@@ -11,6 +11,7 @@ import EditProfile from '@/views/profile/EditProfile'
 import VehiclesList from '@/views/vehicles/VehiclesList'
 import EditVehicle from '@/views/vehicles/EditVehicle'
 import CreateVehicle from '@/views/vehicles/CreateVehicle'
+import ParkingDetails from '@/views/parkings/ParkingDetails'
 import ActiveParkings from '@/views/parkings/ActiveParkings'
 import OrderParking from '@/views/parkings/OrderParking'
 import ParkingHistory from '@/views/parkings/ParkingHistory'
@@ -38,6 +39,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path={ route('parkings.active') } element={<ActiveParkings />} />
           <Route path={ route('parkings.create') } element={<OrderParking />} />
           <Route path={ route('parkings.history') } element={<ParkingHistory />} />
+          <Route path={ route('parkings.show') } element={<ParkingDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>
